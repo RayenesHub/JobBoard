@@ -9,6 +9,12 @@ import java.util.List;
 public class CandidatService {
     @Autowired
     private CandidatRepository candidatRepository;
+    @Autowired
+    private JobClient jobClient;
+    public String sayHello() {
+        return jobClient.sayHello();
+    }
+
     public List<Candidat> findAll() {
         return candidatRepository.findAll();
     }

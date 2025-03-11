@@ -20,10 +20,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Job" options="-parameters" />
       <module name="candidat" options="-parameters" />
-      <module name="condidature" options="-parameters" />
+      <module name="condidature" options="" />
       <module name="eureka" options="-parameters" />
       <module name="gateway" options="-parameters" />
-      <module name="meeting" options="-parameters" />
+      <module name="meeting" options="" />
       <module name="notification" options="-parameters" />
     </option>
   </component>
